@@ -1,5 +1,5 @@
 import { FactoryProvider } from '@nestjs/common';
-import { ClassProxyFactory } from 'src/factory/class-proxy.factory';
+import { ClassProxyFactory } from './class-proxy.factory';
 
 export function createAopProvider(target: any): FactoryProvider {
   return {

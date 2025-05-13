@@ -1,5 +1,5 @@
 import { SetMetadata } from '@nestjs/common';
-import { PointcutOptions } from 'src/interface/pointcut.interface';
+import { PointcutOptions } from '../interface/pointcut.interface';
 
 export const POINTCUT_METADATA = Symbol('POINTCUT_METADATA');
 
